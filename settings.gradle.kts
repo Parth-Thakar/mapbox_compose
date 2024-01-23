@@ -16,8 +16,9 @@ dependencyResolutionManagement {
                 create<BasicAuthentication>("basic")
             }
             credentials {
-                username = ("mapbox")
-                password = ("INSERT_MAPBOX_ACCESS_TOKEN_HERE")
+                username = "mapbox"
+                password =
+                    "YOUR_TOKEN_OF_MAPBOX"
             }
         }
     }
